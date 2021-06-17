@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none
+}
+
+header {
+    text-align: center;
+}
+
+.hadarbd {
+
+    background: #87509c;
+
+}
+
+.hadarbd h1 {
+    text-align: center;
+}
+
+.logo {
+    padding: 40px;
+    display: block;
+    float: left;
+}
+
+.navigation {
+    float: right;
+    padding: 40px;
+}
+
+.navigation ul {
+    list-style-type: none;
+
+}
+
+.navigation ul li {
+    float: left;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navigation ul li a:hover {
+    background: #643a79;
+}
+
+.headercontent {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.headercontent h1 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    margin: 100px auto 50px;
+    width: 72%;
+}
+
+
+.headercontent .bnt_Work {
+    text-align: center;
+    text-decoration: noen;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background: #eb7d4b;
+    box-shadow: 0 2px #c86a40;
+    margin-bottom: 100px;
+    transition: all 0.3s ease;
+}
+
+.headercontent .bnt_Work:hover {
+    color: #ddd4d0;
+}
+
+.service {
+    background: #17c2a4;
+
+}
+
+.service-area {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.service-area h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+hr {
+    width: 95px;
+    border: 0;
+    border-top: 5px solid #c8d9e5;
+    margin: 15px auto;
+}
+
+.service-area p {
+    width: 68%;
+    text-align: center;
+    margin: 24px auto;
+    color: white;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+
+.serviesbox {
+    text-align: center;
+
+}
+
+.serviesbox h3 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+
+.serviesbox p {
+    font-size: 17px;
+    margin-bottom: 40px;
+    color: #c7ece3;
+
+}
+
+
+
+
+.Team {
+    background: #e7f1f8;
+    text-align: center;
+}
+
+
+.Team h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: #3c4761;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.Team p {
+    color: #3c4761;
+    font-size: 18px;
+    margin-bottom: 40px;
+
+}
+
+.Team-area {
+    margin-bottom: 40px;
+
+}
+
+
+
+.Team .members img {
+    border-radius: 100px;
+    width: 160px;
+    height: 160px;
+}
+
+.Team .members h3 {
+    font-size: 24px;
+    color: black;
+}
+
+.Team .members h4 {
+    font-size: 18px;
+    color: #30bae7;
+}
+
+
+.icon ul {
+    padding: 0;
+
+}
+
+.icon li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+.icon .fa {
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #bdd1df;
+    border-radius: 100px;
+
+}
+
+
+
+.skills {
+    padding: 70px 0;
+}
+
+.skill-area h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3c4761;
+    font-size: 40px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+.skill-area P {
+    text-align: center;
+    font-size: 18px;
+    color: #3c4761;
+    width: 56%;
+    margin: 0 auto 80px;
+    font-family: 'Titillium Web';
+}
+
+.box .chart {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.box .chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3c4761;
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+
+
+
+.filtering {
+    background: #ffdd99;
+    padding: 50px 0;
+}
+
+.filter-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.filter-content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3c4761;
+    font-size: 40px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+.filter-content p {
+    text-align: center;
+    font-size: 18px;
+    color: #3c4761;
+    width: 50%;
+    margin: 0 auto 80px;
+    font-family: 'Titillium Web';
+}
+
+
+.filter-content ul {
+    padding: 0;
+
+}
+
+.filter-content ul li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    background: #ebc985;
+    padding: 10px 30px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.filter-content li:hover {
+    background: #ffffff;
+}
+
+.filter-content .active {
+    background: white;
+}
+
+.grid {
+    width: 100%;
+}
+
+.element-item {
+    text-align: center;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.element-item p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.filter-wrapper .bnt_Work {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #17c2a4;
+    box-shadow: 0 2px #17c2a4;
+
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.aboutus {
+    background: #d74680;
+    padding: 50px 0;
+}
+
+.about-content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+.about-content p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+.aboutimg img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: 5px auto;
+}
+
+.aboutarticle p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 21px;
+    color: white;
+    font-style: italic;
+
+
+}
+
+.aboutarticle h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.aboutarticle h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #ea988c;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.contactus {
+    padding: 70px 0;
+    background: #3c5499;
+    text-align: center
+}
+
+.contactus-content h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+.contactus-content p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.form-row{
+    width: 75%;
+    margin: 0 auto;
+}
+
+ .form-control {
+  height:49px;
+  background:#273a71;
+  border: none;
+
+}
+
+#exampleFormControlTextarea1{
+   height: 120px;
+}
+
+.bnt_send{  
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #30bae7;
+    box-shadow: 0 2px #30bae7;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+footer{
+   background:#344b8e;
+ 
+   padding:15px 0;
+}
+.footermenu{
+  
+}
+.footermenu ul{
+    padding:0; 
+}
+.footermenu ul li{
+    display: inline-block;
+    padding: 5px 30px;
+    color:white;
+    font-size:24px;
+    
+}
+.footermenu ul li:hover{
+    color:#30bae7;
+    cursor: pointer;
+}
